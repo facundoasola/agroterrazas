@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;600;700&display=swap');
+
+
+
+.objetos_header {
+    padding: 0;
+    margin: 0;
+    max-height: 200px;
+}
+.Header_verde  {
+    background: rgb(24,96,48);
+    background: -moz-linear-gradient(360deg, rgba(24,96,48,1) 39%, rgba(94,165,105,1) 93%);
+    background: -webkit-linear-gradient(360deg, rgba(24,96,48,1) 39%, rgba(94,165,105,1) 93%);
+    background: linear-gradient(360deg, rgba(24,96,48,1) 39%, rgba(94,165,105,1) 93%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#186030",endColorstr="#5ea569",GradientType=1);
+}
+.texto_header {
+    color:whitesmoke
+    ;font-family: Incosolata;
+    font-weight: 700;
+    font-size: large;
+ 
+}
+.carousel_main {
+    max-height: 100%;
+;max-width: 100%;
+}
+.main_titulo {
+    color:rgba(24,96,48,1) ;
+    font-size: 30px;
+    font-family: Incosolata;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_texto {
+    font-family: Incosolata;
+    font-weight: 700;
+    font-size: large;
+    
+
+}
+.main_importante {
+    font-family: Incosolata;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.main_imagen {
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+main {
+    max-width: 100%;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    background-color:rgb(24,96,48) ;
+}
+footer img {
+    max-width: 320px;
+}
